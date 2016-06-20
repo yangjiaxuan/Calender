@@ -15,6 +15,7 @@
 		454010011D17E7160067A3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45400FFF1D17E7160067A3BD /* LaunchScreen.storyboard */; };
 		4540100C1D17E7160067A3BD /* CalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540100B1D17E7160067A3BD /* CalenderTests.m */; };
 		454010171D17E7160067A3BD /* CalenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454010161D17E7160067A3BD /* CalenderUITests.m */; };
+		454010341D17F7F10067A3BD /* CalenderHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 454010331D17F7F10067A3BD /* CalenderHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		454010121D17E7160067A3BD /* CalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		454010161D17E7160067A3BD /* CalenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalenderUITests.m; sourceTree = "<group>"; };
 		454010181D17E7160067A3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454010321D17F7F10067A3BD /* CalenderHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderHeaderView.h; sourceTree = "<group>"; };
+		454010331D17F7F10067A3BD /* CalenderHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		454010311D17F79A0067A3BD /* YSCalender */ = {
 			isa = PBXGroup;
 			children = (
+				454010321D17F7F10067A3BD /* CalenderHeaderView.h */,
+				454010331D17F7F10067A3BD /* CalenderHeaderView.m */,
 			);
 			path = YSCalender;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45400FF91D17E7160067A3BD /* ViewController.m in Sources */,
+				454010341D17F7F10067A3BD /* CalenderHeaderView.m in Sources */,
 				45400FF61D17E7160067A3BD /* AppDelegate.m in Sources */,
 				45400FF31D17E7160067A3BD /* main.m in Sources */,
 			);
