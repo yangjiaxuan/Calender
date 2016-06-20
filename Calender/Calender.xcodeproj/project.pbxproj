@@ -101,6 +101,7 @@
 		45400FF01D17E7160067A3BD /* Calender */ = {
 			isa = PBXGroup;
 			children = (
+				454010311D17F79A0067A3BD /* YSCalender */,
 				45400FF41D17E7160067A3BD /* AppDelegate.h */,
 				45400FF51D17E7160067A3BD /* AppDelegate.m */,
 				45400FF71D17E7160067A3BD /* ViewController.h */,
@@ -138,6 +139,13 @@
 				454010181D17E7160067A3BD /* Info.plist */,
 			);
 			path = CalenderUITests;
+			sourceTree = "<group>";
+		};
+		454010311D17F79A0067A3BD /* YSCalender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YSCalender;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +504,7 @@
 				4540101D1D17E7160067A3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4540101E1D17E7160067A3BD /* Build configuration list for PBXNativeTarget "CalenderTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				454010201D17E7160067A3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		454010211D17E7160067A3BD /* Build configuration list for PBXNativeTarget "CalenderUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				454010231D17E7160067A3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
