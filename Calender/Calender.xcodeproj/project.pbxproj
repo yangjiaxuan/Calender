@@ -11,22 +11,11 @@
 		45400FF61D17E7160067A3BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45400FF51D17E7160067A3BD /* AppDelegate.m */; };
 		45400FF91D17E7160067A3BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45400FF81D17E7160067A3BD /* ViewController.m */; };
 		45400FFC1D17E7160067A3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45400FFA1D17E7160067A3BD /* Main.storyboard */; };
+		45400FFE1D17E7160067A3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45400FFD1D17E7160067A3BD /* Assets.xcassets */; };
 		454010011D17E7160067A3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45400FFF1D17E7160067A3BD /* LaunchScreen.storyboard */; };
 		4540100C1D17E7160067A3BD /* CalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540100B1D17E7160067A3BD /* CalenderTests.m */; };
 		454010171D17E7160067A3BD /* CalenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454010161D17E7160067A3BD /* CalenderUITests.m */; };
 		454010341D17F7F10067A3BD /* CalenderHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 454010331D17F7F10067A3BD /* CalenderHeaderView.m */; };
-		4560D1381D1CC81A00D65030 /* YSSingalMonthCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D1371D1CC81A00D65030 /* YSSingalMonthCalender.m */; };
-		4560D13B1D1CC85300D65030 /* YSScrollCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D13A1D1CC85300D65030 /* YSScrollCalender.m */; };
-		4560D1411D1CEBF500D65030 /* YSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D1401D1CEBF500D65030 /* YSWindow.m */; };
-		456A483A1D1A2CF600557F8A /* ChineseCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 456A48391D1A2CF600557F8A /* ChineseCalender.m */; };
-		456A483E1D1A392E00557F8A /* ChineseHolidayList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 456A483D1D1A392E00557F8A /* ChineseHolidayList.plist */; };
-		456A48411D1A636A00557F8A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 456A48401D1A636A00557F8A /* UIView+Frame.m */; };
-		456A48451D1A7BDE00557F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456A48441D1A7BDE00557F8A /* Assets.xcassets */; };
-		45E9B7301D193661005CC87F /* CalenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B72B1D193661005CC87F /* CalenderCell.m */; };
-		45E9B7311D193661005CC87F /* CalenderCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B72D1D193661005CC87F /* CalenderCellModel.m */; };
-		45E9B7321D193661005CC87F /* YSCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B72F1D193661005CC87F /* YSCalender.m */; };
-		45E9B7351D194610005CC87F /* CalenderDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B7341D194610005CC87F /* CalenderDataManager.m */; };
-		45E9B7381D1946BE005CC87F /* NSDate+Calender.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B7371D1946BE005CC87F /* NSDate+Calender.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +43,7 @@
 		45400FF71D17E7160067A3BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		45400FF81D17E7160067A3BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		45400FFB1D17E7160067A3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45400FFD1D17E7160067A3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454010001D17E7160067A3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454010021D17E7160067A3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		454010071D17E7160067A3BD /* CalenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,28 +54,6 @@
 		454010181D17E7160067A3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		454010321D17F7F10067A3BD /* CalenderHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderHeaderView.h; sourceTree = "<group>"; };
 		454010331D17F7F10067A3BD /* CalenderHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderHeaderView.m; sourceTree = "<group>"; };
-		4560D1361D1CC81A00D65030 /* YSSingalMonthCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSSingalMonthCalender.h; sourceTree = "<group>"; };
-		4560D1371D1CC81A00D65030 /* YSSingalMonthCalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSSingalMonthCalender.m; sourceTree = "<group>"; };
-		4560D1391D1CC85300D65030 /* YSScrollCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSScrollCalender.h; sourceTree = "<group>"; };
-		4560D13A1D1CC85300D65030 /* YSScrollCalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSScrollCalender.m; sourceTree = "<group>"; };
-		4560D13F1D1CEBF500D65030 /* YSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSWindow.h; sourceTree = "<group>"; };
-		4560D1401D1CEBF500D65030 /* YSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSWindow.m; sourceTree = "<group>"; };
-		456A48381D1A2CF600557F8A /* ChineseCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalender.h; sourceTree = "<group>"; };
-		456A48391D1A2CF600557F8A /* ChineseCalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseCalender.m; sourceTree = "<group>"; };
-		456A483D1D1A392E00557F8A /* ChineseHolidayList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ChineseHolidayList.plist; sourceTree = "<group>"; };
-		456A483F1D1A636A00557F8A /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		456A48401D1A636A00557F8A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		456A48441D1A7BDE00557F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45E9B72A1D193661005CC87F /* CalenderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderCell.h; sourceTree = "<group>"; };
-		45E9B72B1D193661005CC87F /* CalenderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderCell.m; sourceTree = "<group>"; };
-		45E9B72C1D193661005CC87F /* CalenderCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderCellModel.h; sourceTree = "<group>"; };
-		45E9B72D1D193661005CC87F /* CalenderCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderCellModel.m; sourceTree = "<group>"; };
-		45E9B72E1D193661005CC87F /* YSCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCalender.h; sourceTree = "<group>"; };
-		45E9B72F1D193661005CC87F /* YSCalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCalender.m; sourceTree = "<group>"; };
-		45E9B7331D194610005CC87F /* CalenderDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderDataManager.h; sourceTree = "<group>"; };
-		45E9B7341D194610005CC87F /* CalenderDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderDataManager.m; sourceTree = "<group>"; };
-		45E9B7361D1946BE005CC87F /* NSDate+Calender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calender.h"; sourceTree = "<group>"; };
-		45E9B7371D1946BE005CC87F /* NSDate+Calender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calender.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +109,8 @@
 				45400FF51D17E7160067A3BD /* AppDelegate.m */,
 				45400FF71D17E7160067A3BD /* ViewController.h */,
 				45400FF81D17E7160067A3BD /* ViewController.m */,
-				456A48441D1A7BDE00557F8A /* Assets.xcassets */,
 				45400FFA1D17E7160067A3BD /* Main.storyboard */,
+				45400FFD1D17E7160067A3BD /* Assets.xcassets */,
 				45400FFF1D17E7160067A3BD /* LaunchScreen.storyboard */,
 				454010021D17E7160067A3BD /* Info.plist */,
 				45400FF11D17E7160067A3BD /* Supporting Files */,
@@ -179,29 +147,8 @@
 		454010311D17F79A0067A3BD /* YSCalender */ = {
 			isa = PBXGroup;
 			children = (
-				456A483F1D1A636A00557F8A /* UIView+Frame.h */,
-				456A48401D1A636A00557F8A /* UIView+Frame.m */,
-				45E9B72A1D193661005CC87F /* CalenderCell.h */,
-				45E9B72B1D193661005CC87F /* CalenderCell.m */,
-				45E9B72C1D193661005CC87F /* CalenderCellModel.h */,
-				45E9B72D1D193661005CC87F /* CalenderCellModel.m */,
-				45E9B7331D194610005CC87F /* CalenderDataManager.h */,
-				45E9B7341D194610005CC87F /* CalenderDataManager.m */,
-				456A48381D1A2CF600557F8A /* ChineseCalender.h */,
-				456A48391D1A2CF600557F8A /* ChineseCalender.m */,
-				45E9B72E1D193661005CC87F /* YSCalender.h */,
-				45E9B72F1D193661005CC87F /* YSCalender.m */,
-				4560D1361D1CC81A00D65030 /* YSSingalMonthCalender.h */,
-				4560D1371D1CC81A00D65030 /* YSSingalMonthCalender.m */,
-				4560D1391D1CC85300D65030 /* YSScrollCalender.h */,
-				4560D13A1D1CC85300D65030 /* YSScrollCalender.m */,
 				454010321D17F7F10067A3BD /* CalenderHeaderView.h */,
 				454010331D17F7F10067A3BD /* CalenderHeaderView.m */,
-				45E9B7361D1946BE005CC87F /* NSDate+Calender.h */,
-				45E9B7371D1946BE005CC87F /* NSDate+Calender.m */,
-				4560D13F1D1CEBF500D65030 /* YSWindow.h */,
-				4560D1401D1CEBF500D65030 /* YSWindow.m */,
-				456A483D1D1A392E00557F8A /* ChineseHolidayList.plist */,
 			);
 			path = YSCalender;
 			sourceTree = "<group>";
@@ -310,9 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				454010011D17E7160067A3BD /* LaunchScreen.storyboard in Resources */,
+				45400FFE1D17E7160067A3BD /* Assets.xcassets in Resources */,
 				45400FFC1D17E7160067A3BD /* Main.storyboard in Resources */,
-				456A48451D1A7BDE00557F8A /* Assets.xcassets in Resources */,
-				456A483E1D1A392E00557F8A /* ChineseHolidayList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,20 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4560D1381D1CC81A00D65030 /* YSSingalMonthCalender.m in Sources */,
 				45400FF91D17E7160067A3BD /* ViewController.m in Sources */,
-				45E9B7381D1946BE005CC87F /* NSDate+Calender.m in Sources */,
 				454010341D17F7F10067A3BD /* CalenderHeaderView.m in Sources */,
-				456A483A1D1A2CF600557F8A /* ChineseCalender.m in Sources */,
 				45400FF61D17E7160067A3BD /* AppDelegate.m in Sources */,
-				4560D1411D1CEBF500D65030 /* YSWindow.m in Sources */,
-				45E9B7351D194610005CC87F /* CalenderDataManager.m in Sources */,
-				4560D13B1D1CC85300D65030 /* YSScrollCalender.m in Sources */,
 				45400FF31D17E7160067A3BD /* main.m in Sources */,
-				45E9B7301D193661005CC87F /* CalenderCell.m in Sources */,
-				45E9B7321D193661005CC87F /* YSCalender.m in Sources */,
-				45E9B7311D193661005CC87F /* CalenderCellModel.m in Sources */,
-				456A48411D1A636A00557F8A /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +428,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calender/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sitemap.Calender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -504,7 +439,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calender/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sitemap.Calender;
 				PRODUCT_NAME = "$(TARGET_NAME)";

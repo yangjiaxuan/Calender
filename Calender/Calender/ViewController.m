@@ -7,9 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "YSScrollCalender.h"
 
-@interface ViewController ()<YSCalenderDelegate>
+@interface ViewController ()
 
 @end
 
@@ -17,30 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    YSScrollCalender *calender = [[YSScrollCalender alloc]initWithFrame:self.view.bounds];
-    calender.delegate = self;
-    [self.view addSubview:calender];
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-    
-}
-
-- (BOOL)calender:(YSCalender *)calender canSelectDate:(CalenderCellModel *)dateModel{
-    return YES;
-}
-
-- (BOOL)calender:(YSCalender *)calender canDeselectDate:(CalenderCellModel *)dateModel{
-    return YES;
-}
-
-- (void)calender:(YSCalender *)calender didSelectDate:(CalenderCellModel *)dateModel{
-    NSLog(@"选择了日期：%@",dateModel.date);
-}
-
-- (void)calender:(YSCalender *)calender didDeselectDate:(CalenderCellModel *)dateModel{
-     NSLog(@"取消选择了日期：%@",dateModel.date);
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 @end
